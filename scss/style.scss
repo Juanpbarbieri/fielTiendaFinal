@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+    font-size: x-large;
+    background-color: orangered;
+}
+
+@import "header";
+@import "main";
+@import "footer"
+

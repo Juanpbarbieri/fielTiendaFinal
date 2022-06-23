@@ -1,0 +1,334 @@
+body {
+  margin: 0;
+  font-family: 'Amatic SC', cursive;
+  font-size: x-large;
+  background-color: orangered;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 70px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3px 40px;
+  background-color: #f2c242;
+}
+
+.logo img {
+  height: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: xx-large;
+}
+
+.navBar a {
+  font-weight: 600;
+}
+
+.navBar a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    width: auto;
+    padding: 0px;
+  }
+}
+
+.parent {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  padding: auto;
+}
+
+.div1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.div2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.div3 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.div4 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.div5 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.div6 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.div7 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+.div8 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 5 / 1 / 6 / 2;
+}
+
+.div9 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 5 / 2 / 6 / 3;
+}
+
+.banner h2 {
+  font-size: 2.6rem;
+  color: orangered;
+  position: absolute;
+  top: 40%;
+  left: 37%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.banner p {
+  font-size: 2.6rem;
+  color: orangered;
+  position: absolute;
+  top: 60%;
+  left: 37%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.banner .tituloServicios {
+  font-size: 3.6rem;
+  color: orangered;
+  position: absolute;
+  top: 40%;
+  left: 62%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.banner .subServicios {
+  font-size: 2.6rem;
+  color: orangered;
+  position: absolute;
+  top: 73%;
+  left: 63%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.banner .contactoT {
+  font-size: 3.6rem;
+  color: orangered;
+  position: absolute;
+  top: 65%;
+  left: 22%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.titulosV h2 {
+  text-align: center;
+}
+
+.titulosV p {
+  text-align: center;
+}
+
+.div3 {
+  background-color: #47B5FF;
+}
+
+.div4 {
+  background-color: #47B5FF;
+}
+
+.div7 {
+  background-color: #47B5FF;
+}
+
+.div8 {
+  background-color: #47B5FF;
+}
+
+.container {
+  background-color: orangered;
+}
+
+.container .tituloB {
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .banner .h2 {
+    width: auto;
+    padding: 35px;
+  }
+  .banner .sub-titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .banner .tituloServicios {
+    font-size: 2.6rem;
+    color: orangered;
+    position: absolute;
+    top: 40%;
+    left: 62%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .banner .subServicios {
+    font-size: 1.6rem;
+    color: orangered;
+    position: absolute;
+    top: 73%;
+    left: 63%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .banner .contactoT {
+    font-size: 2.2rem;
+    color: orangered;
+    position: absolute;
+    top: 73%;
+    left: 26%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .parent img {
+    width: 1oopx;
+    height: 320px;
+  }
+}
+
+.piePagina {
+  width: 100%;
+  background-color: #f2c242;
+  margin-top: 0%;
+  color: black;
+}
+
+.piePagina .grupo1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.piePagina .grupo1 .box figure {
+  height: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.piePagina .grupo1 .box figure img {
+  width: 150px;
+}
+
+.piePagina .grupo1 .box h2 {
+  color: black;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.piePagina .grupo1 .box p {
+  color: black;
+}
+
+.piePagina .grupo1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: black;
+  margin-right: 10px;
+  text-align: center;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.piePagina .grupo1 .red-social a:hover {
+  color: white;
+}
+
+.piePagina .grupo-2 {
+  background-color: #47B5FF;
+  padding: 15px 10px;
+  text-align: center;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .piePagina .grupo1 {
+    width: 90%;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
